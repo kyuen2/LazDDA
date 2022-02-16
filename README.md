@@ -34,14 +34,9 @@ We have to remind our readers that, under our construction $\langle p_d p_v \ran
 ![mean(pd*pv)=0](https://github.com/kyuen2/LazDDA/blob/main/fig/pdpv_dot.png)
 
 This is guaranteed by the mathematics, regardless of what $p$ and $I$ one is considering (see our latest response in https://github.com/kyuen2/kalberla_2022)
-$$
-    \begin{align}
-        &\langle p_d p_v \rangle \\
-        &= \Big\langle \left(\left\langle pI\rangle-\langle p\rangle\langle I \rangle\right)\frac{I-\langle I\rangle}{\sigma_I^2}\right) \left(p - \left( \langle pI\rangle-\langle p\rangle\langle I \rangle\right)\frac{I-\langle I\rangle}{\sigma_I^2}\right)\Big\rangle \\
-        &= \left(\langle pI\rangle-\langle p\rangle\langle I \rangle\right)\frac{\langle pI-p\langle I\rangle\rangle}{\sigma_I^2}-\Big\langle \left(\left\langle pI\rangle-\langle p\rangle\langle I \rangle\right)\frac{I-\langle I\rangle}{\sigma_I^2}\right)^2\Big\rangle\\
-        &= \frac{\left(\langle pI\rangle-\langle p\rangle\langle I \rangle\right)^2}{\sigma_I^2}-\frac{\left(\langle pI\rangle-\langle p\rangle\langle I \rangle\right)^2}{\sigma_I^2} = 0
-    \end{align}
-$$
+
+![proof](https://github.com/kyuen2/LazDDA/blob/main/fig/pdpv_straight_0.png)
+
 
 
 
