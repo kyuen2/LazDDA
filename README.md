@@ -23,15 +23,15 @@ For example, suppose we allow
 
 Below we trimmed these two figures so that they are in greyscale and have same dimensions. Here we show the $p$ and $I$ before our algorithm:
 
-![The definition of p and I of our method](https://github.com/kyuen2/LazDDA/fig/pnI.png)
+![The definition of p and I of our method](https://github.com/kyuen2/LazDDA/blob/main/fig/pnI.png)
 
 and the results of our algorithm
 
-![p_d and p_v according to our method](https://github.com/kyuen2/LazDDA/fig/pdpv.png)
+![p_d and p_v according to our method](https://github.com/kyuen2/LazDDA/blob/main/fig/pdpv.png)
 
 We have to remind our readers that, under our construction $\langle p_d p_v \rangle$ must be zero, no matter what $p$ and $I$ you are considering. Below shows no matter what fractions cats and dogs in your image
 
-![mean(pd*pv)=0](https://github.com/kyuen2/LazDDA/fig/pdpv_dot.png)
+![mean(pd*pv)=0](https://github.com/kyuen2/LazDDA/blob/main/fig/pdpv_dot.png)
 
 This is guaranteed by the mathematics, regardless of what $p$ and $I$ one is considering (see our latest response in https://github.com/kyuen2/kalberla_2022)
 $$
